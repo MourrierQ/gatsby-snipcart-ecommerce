@@ -58,7 +58,7 @@ export default function ProductTemplate({data: {product}}) {
             data-item-id={product.id}
             data-item-image={product.image.fluid.src}
             data-item-price={`${product.price}`}
-            data-item-url={`https://d37057d189eb.ngrok.io/products/${slug}`}
+            data-item-url={`/products/${slug}`}
             data-item-name={product.name}>Add to Cart</button>
         </div>
       </ProductStyles>
